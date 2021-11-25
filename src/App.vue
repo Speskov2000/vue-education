@@ -1,27 +1,13 @@
 <template>
   <h1>Todo app</h1> 
-  <TodoList
-    v-bind:todos="todos" 
-  />
   <hr>
+ 
+  <router-view/>
 </template>
 
 <script>
-import TodoList from '@/components/TodoList'
 export default {
-  name: 'App',
-  data() {
-    return {
-      todos: [
-        {id:1, title: 'Купить хлеб', completed: false},
-        {id:2, title: 'Купить масло', completed: false},
-        {id:3, title: 'Купить молоко', completed: false},
-      ]
-    }
-  },
-  components: {
-    TodoList
-  }
+  name: 'App'
 }
 </script>
 
