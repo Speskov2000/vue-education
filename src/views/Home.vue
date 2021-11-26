@@ -1,9 +1,16 @@
 <template>
   <div class="home">
     <h2>Home page</h2>
-    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem accusamus eos eveniet alias tempore. Est odio, eveniet nisi expedita laudantium facilis culpa maiores quo at, possimus sit? Voluptatum, aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa quibusdam, hic non dolor facere nulla quidem aut excepturi rem, dolores quos laboriosam earum necessitatibus facilis commodi repellendus sit nobis sequi.</p>
 
-    <a href="/todos">Todos</a>
   </div>
 </template>
+
+<script>
+
+export default {
+  name: 'Home',
+  components: {
+  }
+}
+</script>

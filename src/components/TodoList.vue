@@ -2,9 +2,8 @@
 <div>
   <ul>
     <TodoItem
-      v-for="(todo, i) of todos"
+      v-for="todo of todos" :key="todo.id"
       v-bind:todo="todo"
-      v-bind:index = "i"
       @remove-todo="removeTodo"
     />
   </ul>
